@@ -1,6 +1,7 @@
 library(rfishdraw)
 library(ggplot2)
 
+# import package
 file <- system.file("extdata", package = "rfishdraw")
 dat <- readRDS(paste0(file, "/", "output_json.rds"))
 for (i in seq(length(dat))) {
